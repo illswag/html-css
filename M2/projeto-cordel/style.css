@@ -1,0 +1,26 @@
+.cordel-section {
+  position: relative;
+  min-height: 500px;
+  background-image: url('flower.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* this is what creates the parallax effect */
+  display: flex;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+
+.cordel-section .text-box {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px 50px;
+  max-width: 55%;
+  font-family: 'Comic Sans MS', 'Segoe Print', cursive;
+  font-style: italic;
+  font-size: 1.8rem;
+  line-height: 2.5;
+}
+
+.cordel-section .text-box p {
+  margin: 0;
+}

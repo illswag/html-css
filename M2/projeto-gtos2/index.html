@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTOS 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__links">
+            <a href="#">home</a>
+            <a href="#">support</a>
+            <a href="#">download</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="nav__icons">
+            <button class="icon-btn" type="button" aria-label="search">
+                <img src="/home/ill/M2/imagens/search_3917132.png" alt="">
+            </button>
+            <button class="icon-btn" type="button" aria-label="settings">
+                <img src="/home/ill/M2/imagens/sun_5527887.png" alt="">
+            </button>
+        </div>
+    </nav>
+
+    <div class="title">
+        <header>
+            <h1>Threshold.</h1>
+            <h2>by GT.</h2>
+        </header>
+        <a class="arrow-btn" href="#" aria-label="next">
+            <img src="/home/ill/M2/imagens/arrow-right_3916800.png" alt="">
+        </a>
+    </div>
+
+    <section class="panels">
+        <div class="col col--left">
+            <article class="primarybox">
+                <h3>hardware integration</h3>
+                <p>version two rebuilds the scheduler core around predictive load-shaping: instead of reacting to what your hardware just did, it anticipates what it's about to do, pre-warming caches and re-pinning threads before a spike ever hits. early benchmarks put sustained multi-core throughput up 34% over baseline, with tail latency cut nearly in half under mixed workloads.</p>
+            </article>
+
+            <article class="secondarybox">
+                <h3>memory improvements</h3>
+                <p>memory management gets a full rewrite too. the new arena allocator eliminates most fragmentation-driven slowdowns during long-running sessions, so a render job on day one performs identically to one on day thirty—no more creeping slowdowns, no more mystery reboots to "clear things out."</p>
+            </article>
+        </div>
+
+        <article class="image">
+            <img src="/home/ill/M2/imagens/flowing.png" alt="stormy sea artwork">
+        </article>
+
+        <div class="col col--right">
+            <article class="tertiarybox">
+                <h3>graphics unit integration</h3>
+                <p>and now, gt-os finally speaks GPU natively: a unified compute layer lets the kernel schedule CPU and GPU work as one continuous pipeline, instead of treating the GPU as a black box you hand tasks to and wait on. for anything touching machine learning or real-time graphics, that's the difference between orchestration and improvisation.</p>
+            </article>
+
+            <article class="fourthbox">
+                <p>download gt-os 2 below. the installation guide can be found on the support section.</p>
+                <p>works best with strong computers.</p>
+                <a class="download-link" href="#">
+                    <span class="download-link__label">download ISO Image</span>
+                    <span class="download-link__icon" aria-hidden="true">&#8595;</span>
+                    <span class="download-link__size">2.8GB</span>
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>footer credits address phone number important information country region location stores nearby</p>
+    </footer>
+</body>
+</html>
